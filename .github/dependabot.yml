@@ -1,0 +1,34 @@
+version: 2
+updates:
+  - package-ecosystem: "docker"
+    directory: "/docker"
+    schedule:
+      interval: "weekly"
+  - package-ecosystem: "pip"
+    directory: "/Ghidra/Debug/Debugger-agent-dbgeng/src/main/py"
+    schedule:
+      interval: "weekly"
+  - package-ecosystem: "pip"
+    directory: "/Ghidra/Debug/Debugger-agent-drgn/src/main/py"
+    schedule:
+      interval: "weekly"
+  - package-ecosystem: "pip"
+    directory: "/Ghidra/Debug/Debugger-agent-gdb/src/main/py"
+    schedule:
+      interval: "weekly"
+  - package-ecosystem: "pip"
+    directory: "/Ghidra/Debug/Debugger-agent-lldb/src/main/py"
+    schedule:
+      interval: "weekly"
+  - package-ecosystem: "pip"
+    directory: "/Ghidra/Debug/Debugger-agent-x64dbg/src/main/py"
+    schedule:
+      interval: "weekly"
+  - package-ecosystem: "pip"
+    directory: "/Ghidra/Debug/Debugger-rmi-trace/src/main/py"
+    schedule:
+      interval: "weekly"
+  - package-ecosystem: "pip"
+    directory: "/Ghidra/Features/PyGhidra/src/main/py"
+    schedule:
+      interval: "weekly"
